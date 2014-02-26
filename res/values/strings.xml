@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyShell</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="url_hint">Type URL Here</string>
+    <string name="print_menu">Print…</string>
+    <string name="signin_select_account">Select Account</string>
+    <string name="signin_sign_in">Sign in</string>
+    <string name="signin_cancel">Cancel</string>
+    <string name="signout_title">Do you want to sign out?</string>
+    <string name="signout_sign_out">Sign out</string>
+    <string name="signout_cancel">Cancel</string>
+    <string name="copy_to_clipboard_failure_string">Copy Failed</string>
+    <string name="browser_process_initialization_failed">Initialization failed.</string>
+    <string name="actionbar_share" desc="Contextual action bar item for sharing a block of text via email, or other method. [CHAR-LIMIT=24]">Share</string>
+    <string name="actionbar_web_search" desc="Contextual action bar item for using the selected text in a internet search. [CHAR-LIMIT=24]">Web search</string>
+    <string name="accessibility_content_view" desc="Content description for the content view that holds the web contents [CHAR-LIMIT=32]">Web View</string>
+    <string name="date_picker_dialog_title" desc="Title for the date picker dialog, which can be used to choose a date. [CHAR-LIMIT=32]">Set date</string>
+    <string name="date_picker_dialog_set" desc="Label for &apos;set&apos; button in date picker dialog and time picker dialog, used to replace the contents of a field with the chosen date or time [CHAR-LIMIT=12]">Set</string>
+    <string name="date_picker_dialog_clear" desc="Label for &apos;clear&apos; button in date picker dialog and time picker dialog, used to replace the contents of a field with the empty string [CHAR-LIMIT=12]">Clear</string>
+    <string name="date_picker_dialog_other_button_label" desc="Label for &apos;other&apos; button in date picker dialog and time picker dialog, used to close the list of suggestions and open the the full date/time picker [CHAR-LIMIT=32]">Other</string>
+    <string name="date_time_picker_dialog_title" desc="Title for the date/time picker dialog, which can be used to choose a date and time. [CHAR-LIMIT=32]">Set date and time</string>
+    <string name="time_picker_dialog_title" desc="Title for the time picker dialog, which can be used to choose a time. [CHAR-LIMIT=32]">Set time</string>
+    <string name="time_picker_dialog_am" desc="Value for AM in AM/PM in the time picker dialog. AM represents the morning (ante-meridiem). [CHAR-LIMIT=12]">AM</string>
+    <string name="time_picker_dialog_pm" desc="Value for PM in AM/PM in the time picker dialog. PM represents the afternoon (post-meridiem). [CHAR-LIMIT=12]">PM</string>
+    <string name="time_picker_dialog_hour_minute_separator" desc="Separator used between hours and minutes in the time pickerr dialog (hh:mm) [CHAR-LIMIT=1]">:</string>
+    <string name="time_picker_dialog_minute_second_separator" desc="Separator used between minutes and seconds in the time picker dialog (hh:mm:ss) [CHAR-LIMIT=1]">:</string>
+    <string name="time_picker_dialog_second_subsecond_separator" desc="Separator used between seconds and subseconds in the time picker dialog (hh:mm:ss.sss) [CHAR-LIMIT=1]">        .</string>
+    <string name="month_picker_dialog_title" desc="Title for the month picker dialog, which can be used to choose a month. [CHAR-LIMIT=32]">Set month</string>
+    <string name="week_picker_dialog_title" desc="Title for the week picker dialog, which can be used to choose a week. [CHAR-LIMIT=32]">Set week</string>
+    <string name="accessibility_datetime_picker_date" desc="Content description for the date time picker date component. [CHAR-LIMIT=32]">Date</string>
+    <string name="accessibility_datetime_picker_time" desc="Content description for the date time picker time component. [CHAR-LIMIT=32]">Time</string>
+    <string name="accessibility_date_picker_month" desc="Content description for the date time picker month component. [CHAR-LIMIT=32]">Month</string>
+    <string name="accessibility_date_picker_week" desc="Content description for the date time picker week component. [CHAR-LIMIT=32]">Week</string>
+    <string name="accessibility_date_picker_year" desc="Content description for the date time picker year component. [CHAR-LIMIT=32]">Year</string>
+    <string name="accessibility_time_picker_hour" desc="Content description for the time picker hour component. [CHAR-LIMIT=32]">Hour</string>
+    <string name="accessibility_time_picker_minute" desc="Content description for the time picker minute component. [CHAR-LIMIT=32]">Minute</string>
+    <string name="accessibility_time_picker_second" desc="Content description for the time picker second component. [CHAR-LIMIT=32]">Second</string>
+    <string name="accessibility_time_picker_milli" desc="Content description for the time picker milli component. [CHAR-LIMIT=32]">Millisecond</string>
+    <string name="accessibility_time_picker_ampm" desc="Content description for the time picker AM/PM component. [CHAR-LIMIT=32]">AM/PM</string>
+    <string name="media_player_error_title" desc="NO DESCRIPTION [CHAR-LIMIT=32]">Cannot play video</string>
+    <string name="media_player_error_text_invalprogressive_playback" desc="NO DESCRIPTION [CHAR-LIMIT=100]">        Sorry, this video is not valid for streaming to this device.</string>
+    <string name="media_player_error_text_unknown" desc="NO DESCRIPTION [CHAR-LIMIT=100]">Sorry, this video cannot be played.</string>
+    <string name="media_player_error_button" desc="NO DESCRIPTION [CHAR-LIMIT=16]">OK</string>
+    <string name="media_player_loading_video" desc="NO DESCRIPTION [CHAR-LIMIT=16]">Loading video</string>
+    <string name="profiler_started_toast" desc="Toast notifying the user that profiler started">Profiler started</string>
+    <string name="profiler_stopped_toast" desc="Toast notifying the user that profiler results were written to a file">Profiler finished. Results are in <ph name="FILENAME">%1$s<ex>output.txt</ex></ph>.</string>
+    <string name="profiler_no_storage_toast" desc="Toast notifying the user that we can not start profiler because there is no external storage">Cannot start profiler because external storage is not ready</string>
+    <string name="profiler_error_toast" desc="Toast notifying the user that we failed to start profiler">Failed to start profiler</string>
+    <string name="low_memory_error" desc="Error shown when the browser is restarted due to low memory during a file picker operation. [CHAR-LIMIT=NONE]">Unable to complete previous operation due to low memory</string>
+    <string name="opening_file_error" desc="Toast when the browser is unable to open a file for upload. [CHAR-LIMIT=32]">Failed to open selected file</string>
+    <string name="color_picker_button_more" desc="Text for ColorPicker button to go to advanced view. [CHAR-LIMIT=20]">More</string>
+    <string name="color_picker_hue" desc="Label for hue slider in ColorPicker.">Hue</string>
+    <string name="color_picker_saturation" desc="Label for saturation slider in ColorPicker.">Saturation</string>
+    <string name="color_picker_value" desc="Label for value slider in ColorPicker.">Value</string>
+    <string name="color_picker_button_set" desc="Label for button in ColorPicker dialog for user to accept the currently chosen color. [CHAR-LIMIT=20]">Set</string>
+    <string name="color_picker_button_cancel" desc="Label for button in ColorPicker dialog for user to cancel picking a color. [CHAR-LIMIT=20]">Cancel</string>
+    <string name="color_picker_dialog_title" desc="Title of ColorPicker dialog. [CHAR-LIMIT=20]">Select color</string>
+    <string name="color_picker_button_red" desc="Accessibility label for button to select the red color.">Red</string>
+    <string name="color_picker_button_cyan" desc="Accessibility label for button to select the cyan color.">Cyan</string>
+    <string name="color_picker_button_blue" desc="Accessibility label for button to select the blue color.">Blue</string>
+    <string name="color_picker_button_green" desc="Accessibility label for button to select the green color.">Green</string>
+    <string name="color_picker_button_magenta" desc="Accessibility label for button to select the magenta color.">Magenta</string>
+    <string name="color_picker_button_yellow" desc="Accessibility label for button to select the yellow color.">Yellow</string>
+    <string name="color_picker_button_black" desc="Accessibility label for button to select the black color.">Black</string>
+    <string name="color_picker_button_white" desc="Accessibility label for button to select the white color.">White</string>
+    <string name="copy_to_clipboard_failure_message" desc="Notification for when copying to the clipboard fails. [CHAR-LIMIT=64]">Failed to copy to the clipboard</string>
+
+</resources>
