@@ -58,7 +58,7 @@ public class ContentShellActivity extends Activity {
         }
         waitForDebuggerIfNeeded();
 
-       /* DeviceUtils.addDeviceSpecificUserAgentSwitch(this);
+        DeviceUtils.addDeviceSpecificUserAgentSwitch(this);
         try {
             LibraryLoader.ensureInitialized();
         } catch (ProcessInitException e) {
@@ -67,8 +67,8 @@ public class ContentShellActivity extends Activity {
             // can work, so kill the whole application not just the activity
             System.exit(-1);
             return;
-        }*/
-        System.loadLibrary("webviewchromium");
+        }
+        //System.loadLibrary("content_shell_content_view");
         
         setContentView(R.layout.content_shell_activity);
         mShellManager = (ShellManager) findViewById(R.id.shell_container);

@@ -138,6 +138,8 @@ public class LibraryLoader {
                         "actual native library version number \"%s\"",
                 NativeLibraries.VERSION_NUMBER,
                 nativeGetVersionNumber()));
+        String nativeVersion = nativeGetVersionNumber();
+        String actualVersion = NativeLibraries.VERSION_NUMBER;
         if (!NativeLibraries.VERSION_NUMBER.equals(nativeGetVersionNumber())) {
             throw new ProcessInitException(LoaderErrors.LOADER_ERROR_NATIVE_LIBRARY_WRONG_VERSION);
         }
@@ -162,7 +164,7 @@ public class LibraryLoader {
         CommandLine.enableNativeProxy();
         TraceEvent.setEnabledToMatchNative();
         // Record histogram for the Chromium linker.
-        if (Linker.isUsed())
+        if (Linker.isUsed(	))
             nativeRecordChromiumAndroidLinkerHistogram(Linker.loadAtFixedAddressFailed(),
                                                     SysUtils.isLowEndDevice());
     }
